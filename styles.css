@@ -92,14 +92,13 @@ button { color: inherit; }
 .brand {
   width: 176px;
   height: 52px;
-  overflow: hidden;
   display: flex;
   align-items: center;
 }
 .brand img {
   width: 100%;
-  aspect-ratio: 2 / 1;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
   object-position: center;
 }
 .site-nav { display: flex; align-items: center; gap: 28px; }
