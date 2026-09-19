@@ -93,8 +93,7 @@ button { color: inherit; }
   width: 200px;
   height: 52px;
   overflow: hidden;
-  display: flex;
-  align-items: center;
+  display: block;
 }
 .brand img {
   width: 100%;
