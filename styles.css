@@ -92,14 +92,14 @@ button { color: inherit; }
 .brand {
   width: 200px;
   height: 52px;
-  overflow: hidden;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 .brand img {
   width: 100%;
-  height: auto;
-  max-width: none;
-  transform: translateY(-18.5%);
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 .site-nav { display: flex; align-items: center; gap: 28px; }
 .site-nav > a {
